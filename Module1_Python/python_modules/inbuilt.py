@@ -1,4 +1,4 @@
-import math
+import math as m
 import sys
 import random
 import add
@@ -21,7 +21,7 @@ num = ["1", "2", "3", "4", "5", "6"]
 
 # print(fact)
 
-print(math.factorial(5))
+print(m.factorial(5))
 
 print(my_math.my_factorial(5))
 
