@@ -2,6 +2,9 @@ class Bank:
     def __init__(self, balance):
         self.balance = balance
 
+    def __str__(self):
+        return f"Your balance is {self.balance}"
+
     def deposit(self, amount):
         self.balance = self.balance + amount
 

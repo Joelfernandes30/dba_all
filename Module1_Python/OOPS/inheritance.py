@@ -7,6 +7,3 @@ class Dog(Animal):
         print("Dog is barking")
 
 
-jimmy = Dog()
-jimmy.eat()
-jimmy.bark()
